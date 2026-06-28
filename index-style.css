@@ -1,0 +1,290 @@
+:root {
+    background-color: lightblue;
+    background-image: linear-gradient(to bottom, rgb(195, 248, 245), rgb(192, 239, 112));
+    width: 100vw;
+    font-family: Arial, sans-serif;
+}
+
+@keyframes zoomIn {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+a:link {
+  color: blue;  
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+.navigation-section {
+    background-color: lightyellow;
+    border-radius: 10px;
+    border-left: 15px solid rgb(221, 217, 0);
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    margin-bottom: 20px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navigation-section:hover {
+    transform: scale(1.05);
+    background-color: rgb(255, 251, 11)
+}
+
+.navigation-links {
+    padding: 25px;
+}
+
+.navigation-links a {
+    text-decoration: underline;
+    margin: 0 75px 0 75px;
+    font-size: 20px;
+    transition: color 0.25s ease;
+}
+
+.navigation-links a:hover {
+    color: red;
+}
+
+.navigation-paragraph {
+    text-align: center;
+}
+
+.navigation-image {
+    width: 5%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.header-section {
+    width: 75%;
+    background-color: lightcyan;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 20px 0 20px 0;
+    border-left: 15px solid blue;
+    transition: transform  0.5s ease, background-color 0.5s ease;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-section:hover {
+    transform: scale(1.05);
+    background-color: lightskyblue;
+}
+
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.header-image {
+    width: 50%;
+    margin: 25px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.header-image:hover {
+    transform: scale(1.05);
+}
+
+.header-heading {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+    background-color: lightcoral;
+    padding: 25px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 75%;
+    font-size: 50px;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+.header-heading:hover {
+    transform: scale(1.05);
+    background-color: red;
+}
+
+.greeting-section {
+    background-color: lightgreen;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-left: 15px solid green;
+    transition: transform  0.5s ease, background-color 0.5s ease;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.greeting-heading {
+    padding: 10px 0 10px 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.greeting-description {
+    font-size: 25px;
+    padding: 0 20px 20px 20px;
+}
+
+.greeting-section:hover {
+    transform: scale(1.05);
+    background-color: rgb(0, 193, 22);
+}
+
+.news-header {
+    text-align: center;
+    padding: 20px;
+    background-color: lightcoral;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.news-header:hover {
+    transform: scale(1.05);
+    background-color: red;
+}
+
+.news-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.news1-section {
+    background-color: lightcyan;
+    border-radius: 10px;
+    border-left: 15px solid blue;
+    padding: 10px;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    width: 40%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.news1-section:hover {
+    transform: scale(1.05);
+    background-color: lightskyblue;
+}
+
+.news2-section {
+    background-color: lightcyan;
+    border-radius: 10px;
+    border-left: 15px solid blue;
+    padding: 10px;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    width: 40%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.news2-section:hover {
+    transform: scale(1.05);
+    background-color: lightskyblue;
+}
+
+.news3-section {
+    background-color: lightcyan;
+    border-radius: 10px;
+    border-left: 15px solid blue;
+    padding: 10px;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    width: 40%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.news3-section:hover {
+    transform: scale(1.05);
+    background-color: lightskyblue;
+}
+
+.news1-header {
+    font-size: 28px;
+}
+
+.news1-description {
+    font-size: 18px;
+}
+
+.news2-header {
+    font-size: 28px;
+}
+
+.news2-description {
+    font-size: 18px;
+}
+
+.news3-header {
+    font-size: 28px;
+}
+
+.news3-description {
+    font-size: 18px;
+}
+
+.credits-header {
+    text-align: center;
+    padding: 20px;
+    background-color: yellow;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.credits-header:hover {
+    transform: scale(1.05);
+    background-color: rgb(219, 219, 0);
+}
+
+.credits-section {
+    background-color: lightgreen;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-left: 15px solid green;
+    transition: transform  0.5s ease, background-color 0.5s ease;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.credits-section:hover {
+    transform: scale(1.05);
+    background-color: rgb(0, 193, 22);
+}
+
+.credits-list {
+    padding: 30px;
+    display: grid;
+    row-gap: 20px;
+}
+
+.credit {
+    font-size: 20px;
+}
